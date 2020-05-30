@@ -21,12 +21,12 @@
     "im",
     "instant"
   ],
-  "author": "Supernomad <Christian Saide csaide@quantumnet.ninja>",
+  "author": "Supernomad <Christian Saide csaide@quantumnet.ninja>, Dr3xler",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Supernomad/CryptoNode/issues"
+    "url": "https://github.com/Dr3xler/CryptoNode/issues"
   },
-  "homepage": "https://github.com/Supernomad/CryptoNode#readme",
+  "homepage": "https://github.com/Dr3xler/CryptoNode#readme",
   "dependencies": {
     "async": "^1.5.2",
     "express": "^4.13.4",

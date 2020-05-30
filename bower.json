@@ -4,6 +4,7 @@
   "main": "app.js",
   "authors": [
     "Supernomad <Christian Saide csaide@quantumnet.ninja>"
+    "Dr3xler"
   ],
   "license": "Apache-2.0",
   "keywords": [
@@ -16,12 +17,12 @@
     "im",
     "instant"
   ],
-  "homepage": "https://github.com/Supernomad/CryptoNode",
+  "homepage": "https://github.com/Dr3xler/CryptoNode",
   "moduleType": [
     "es6",
     "node"
   ],
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
