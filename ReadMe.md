@@ -1,6 +1,6 @@
 ﻿## CrytpoNode - Encrypted Messenger
 
-This project is a fork from https://github.com/supernomad/CryptoNode and contains the start of an encrypted chat program written in Node.js and Html5. The application is designed using AES-256 to encrypt the data being sent over the wire. The actuall encryption key used for the AES encryption is never sent over the wire and the server has no knowledge or record of the information being transmitted. This key is generated off a user supplied password and generated salt, which is put through pbkdf2 for 1000 iterations.
+This project contains the start of an encrypted chat program written in Node.js and Html5. The application is designed using AES-256 to encrypt the data being sent over the wire. The actuall encryption key used for the AES encryption is never sent over the wire and the server has no knowledge or record of the information being transmitted. This key is generated off a user supplied password and generated salt, which is put through pbkdf2 for 1000 iterations.
 
 ### Description
 The idea of the project is to build a lightweight server/client platform that can be run and utilized on almost an hardware and software combination. To give people the opportunity to have their own encrypted chat networks for whatever it is they want to talk about. Privacy is a human right and extends to everyone in this world, and as such people should have access to a free way to ensure that right is upheald.
@@ -43,3 +43,5 @@ You can also scroll through past commands issued during the current session with
 - Implement notifications.
 - Implement file sharing.
 - Implement Video/Voice Chat.
+
+>>>This is a fork from https://github.com/supernomad/CryptoNode
