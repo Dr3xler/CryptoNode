@@ -3,10 +3,9 @@
   "description": "An encrypted chat program",
   "main": "app.js",
   "authors": [
-    "Supernomad <Christian Saide csaide@quantumnet.ninja>"
     "Dr3xler"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "keywords": [
     "encrypted",
     "encryption",

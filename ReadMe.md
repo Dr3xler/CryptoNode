@@ -1,15 +1,15 @@
 ﻿## CrytpoNode - Encrypted Messenger
 
-This project contains the start of an encrypted chat program written in Node.js and Html5. The application is designed using AES-256 to encrypt the data being sent over the wire. The actuall encryption key used for the AES encryption is never sent over the wire and the server has no knowledge or record of the information being transmitted. This key is generated off a user supplied password and generated salt, which is put through pbkdf2 for 1000 iterations.
+This project is a fork from https://github.com/supernomad/CryptoNode and contains the start of an encrypted chat program written in Node.js and Html5. The application is designed using AES-256 to encrypt the data being sent over the wire. The actuall encryption key used for the AES encryption is never sent over the wire and the server has no knowledge or record of the information being transmitted. This key is generated off a user supplied password and generated salt, which is put through pbkdf2 for 1000 iterations.
 
 ### Description
-This is in no way a finished product however it is the beginning of one please let me know of any glaring issues or features you would like added or removed. The idea of the project is to build a lightweight server/client platform that can be run and utilized on almost an hardware and software combination. To give people the opportunity to have their own encrypted chat networks for whatever it is they want to talk about. Privacy is a human right and extends to everyone in this world, and as such people should have access to a free way to ensure that right is upheald.
+The idea of the project is to build a lightweight server/client platform that can be run and utilized on almost an hardware and software combination. To give people the opportunity to have their own encrypted chat networks for whatever it is they want to talk about. Privacy is a human right and extends to everyone in this world, and as such people should have access to a free way to ensure that right is upheald.
 
 ### Setup
 
 Run the following commands:
 ```
-git clone https://github.com/Supernomad/CryptoNode.git
+git clone https://github.com/Dr3xler/CryptoNode.git
 cd CryptoNode/
 npm install
 node app.js
@@ -27,7 +27,7 @@ The client uses jQuery to handle templates and properties, while using CryptoJS 
 
 ```
 /join [username] [room] [password] # joins the specifed room with the username and password provided. There must be no spaces in any of the parameters and they must be unquoted.
-i.e. /join supernomad woot sup3rs3cr3tp@55w0rd
+i.e. /join User123 Room123 TheM0stSecretPasswordEver
 
 /leave # leaves the current room.
 /rooms # lists available rooms.
